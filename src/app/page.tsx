@@ -84,7 +84,7 @@ export default function Home() {
       setMintMsg("No candy machine ID found. Add environment variable.");
       return;
     }
-    const candyMachine: CandyMachine = await fetchCandyMachine(umi, publicKey(cmId));
+    const candyMachine: CandyMachine = await fetchCandyMachine(umi, publicKey("BfpRo3y7hyRc1HejWhQraFSTMdrGgLF55LjhvrKBG8wV"));
     setCandyMachine(candyMachine);
 
     // Get counts
