@@ -24,6 +24,7 @@
   padding: 0 24px;
   background-color: yellowgreen;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .mintBtn:not(:disabled):hover {
