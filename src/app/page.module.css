@@ -6,6 +6,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-image: url(/nft-mint/public/bg4.png);
 }
 
 .countsContainer {
