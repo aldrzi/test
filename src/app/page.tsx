@@ -231,6 +231,7 @@ export default function Home() {
     <WalletProvider wallets={wallets} autoConnect>
       <WalletModalProvider>
         <main className={styles.main}>
+
           <WalletMultiButtonDynamic/>
         
           <h1>MR COOKIES <a href="https://porcupineplaygroundpals.com/how-to-create-a-minting-ui-for-collection-deployed-with-metaplexs-sugar-2-1-1/" target="_blank" rel="noreferrer">NFT MINT TEST</a></h1>
